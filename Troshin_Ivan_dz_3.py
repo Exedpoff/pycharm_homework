@@ -1,8 +1,7 @@
-numb = int(input("Введите число от 1 до 20: "))
-percent = str("Процент")
-if numb == 1:
-    print(str(numb),percent,sep=' ')
-elif 1 < numb <= 4:
-    print(str(numb),percent+"a",sep=' ')
-else:
-    print(str(numb),percent+"ов",sep=' ')
+for procent in range(21):
+    if procent % 10 == 1 and procent % 100 != 11:
+        print(procent, 'процент', end=" ")
+    elif 1 < procent % 10 < 5 and not 11 < procent % 100 < 15:
+        print(procent, 'процента', end=" ")
+    else:
+        print(procent, 'процентов', end=" ")
