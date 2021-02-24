@@ -1,4 +1,4 @@
-print("Задание №1")
+#Задание № 1
 duration = int(input("Введите значение в секундах: "))
 second = duration % 60
 minutes = (duration // 60) % 60

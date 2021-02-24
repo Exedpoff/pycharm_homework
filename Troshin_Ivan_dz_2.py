@@ -1,3 +1,4 @@
+#Задание №2
 list_cube = []
 add_list_cubes = []
 all_sum = 0
