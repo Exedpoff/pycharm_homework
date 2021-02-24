@@ -13,7 +13,6 @@ for ind, val in enumerate(add_list_cubes):
         all_sum += add_list_cubes[ind]
 print(all_sum)
 
-
 for m in add_list_cubes:
     add_list_cubes.append(m + 17)
     all_sum = 0
